@@ -7,7 +7,7 @@ import {
   Clock,
   Users,
   InstagramIcon,
-  FacebookIcon,
+  // FacebookIcon,
 } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext";
 
