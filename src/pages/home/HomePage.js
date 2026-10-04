@@ -145,7 +145,9 @@ export default function HomePage() {
               }}
             />
             <Link
-              to="/kontakt"
+              // to="/kontakt"
+              to="https://www.bokadirekt.se/places/eden-studio-barbershop-133611"
+              target="_blank"
               aria-label="Öppna kontaktsektionen och boka tid hos Eden Studio Barbershop"
               className={`relative px-12 py-4 text-lg font-semibold rounded-md overflow-hidden group transition-all duration-300 focus:outline-none focus:ring-4 ${
                 theme === "dark"

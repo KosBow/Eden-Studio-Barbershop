@@ -30,6 +30,7 @@ export function NavBar() {
 
   return (
     <motion.nav
+    data-scrolled={scrolled}
       role="navigation"
       aria-label="Huvudmeny"
       initial={{ opacity: 0, y: -20 }}
@@ -142,7 +143,7 @@ export function NavBar() {
               )}
             </Button>
 
-            <Link to="/kontakt">
+            <Link to="https://www.bokadirekt.se/places/eden-studio-barbershop-133611" target= "_blank">
               <Button
                 className="
                   bg-amber-400 text-black rounded-lg px-5 py-2 
