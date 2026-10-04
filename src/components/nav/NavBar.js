@@ -30,6 +30,7 @@ export function NavBar() {
 
   return (
     <motion.nav
+    data-scrolled={scrolled}
       role="navigation"
       aria-label="Huvudmeny"
       initial={{ opacity: 0, y: -20 }}
