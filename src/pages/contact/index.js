@@ -382,21 +382,21 @@ export default function Contact() {
               {
                 icon: <Phone size={18} className="text-amber-400" />,
                 title: "Telefon",
-                value: "070-000 00 00",
+                value: "072-201 01 95",
               },
               {
                 icon: <Mail size={18} className="text-amber-400" />,
                 title: "E-post",
-                value: "info@edenstudiobarbershop.se",
+                value: "Eden.studio1@hotmail.com",
               },
               {
                 icon: <Clock size={18} className="text-amber-400" />,
                 title: "Öppettider",
                 value: (
                   <>
-                    <p>Mån - Fre: 09 - 19</p>
-                    <p>Lör: 09 - 17</p>
-                    <p>Sönd: stängt</p>
+                    <p>Mån - Fre: 11 - 19</p>
+                    <p>Lör: 11 - 15</p>
+                    <p>Sönd: stängt!</p>
                     <p
                       className={`mt-3 text-sm italic ${
                         theme === "dark" ? "text-gray-400" : "text-gray-600"
