@@ -1,21 +1,14 @@
-# Eden Studio Barbershop - Robots.txt
-# https://www.robotstxt.org/robotstxt.html
+# Eden Studio Barbershop
+# https://edenstudio.se/
 
 User-agent: *
 Allow: /
 
-# Blockera tekniska rutter (om du lägger till admin i framtiden)
 Disallow: /admin/
 Disallow: /server/
 Disallow: /backend/
-
-# Blockera interna filer
 Disallow: /private/
 Disallow: /tmp/
 Disallow: /secret/
 
-# Tillåt Google att indexera bilder
-Allow: /images/
-
-# Sitemap (aktiveras när du har domänen live)
-Sitemap: https://edenstudiobarbershop.se/sitemap.xml
+Sitemap: https://edenstudio.se/sitemap.xml

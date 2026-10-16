@@ -4,22 +4,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
 >
   <url>
-    <loc>https://edenstudiobarbershop.se/</loc>
-    <priority>1.0</priority>
+    <loc>https://edenstudio.se/</loc>
   </url>
 
   <url>
-    <loc>https://edenstudiobarbershop.se/services</loc>
-    <priority>0.85</priority>
+    <loc>https://edenstudio.se/services</loc>
   </url>
 
   <url>
-    <loc>https://edenstudiobarbershop.se/kontakt</loc>
-    <priority>0.90</priority>
+    <loc>https://edenstudio.se/kontakt</loc>
   </url>
 
   <url>
-    <loc>https://edenstudiobarbershop.se/om-oss</loc>
-    <priority>0.80</priority>
+    <loc>https://edenstudio.se/om-oss</loc>
   </url>
+
 </urlset>
