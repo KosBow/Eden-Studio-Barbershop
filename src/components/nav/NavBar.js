@@ -30,7 +30,7 @@ export function NavBar() {
 
   return (
     <motion.nav
-    data-scrolled={scrolled}
+      data-scrolled={scrolled}
       role="navigation"
       aria-label="Huvudmeny"
       initial={{ opacity: 0, y: -20 }}
@@ -143,7 +143,10 @@ export function NavBar() {
               )}
             </Button>
 
-            <Link to="https://www.bokadirekt.se/places/eden-studio-barbershop-133611" target= "_blank">
+            <Link
+              to="https://www.bokadirekt.se/places/eden-studio-barbershop-133611"
+              target="_blank"
+            >
               <Button
                 className="
                   bg-amber-400 text-black rounded-lg px-5 py-2 
@@ -230,12 +233,17 @@ export function NavBar() {
               </Link>
             ))}
 
-            <Link to="/kontakt" onClick={() => setIsOpen(false)}>
+            <Link
+              to="https://www.bokadirekt.se/places/eden-studio-barbershop-133611"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+            >
               <Button
                 className="
-                  w-full bg-amber-400 text-black rounded-lg px-5 py-2 mt-2
-                  hover:bg-amber-500 transition
-                "
+      w-full bg-amber-400 text-black rounded-lg px-5 py-2 mt-2
+      hover:bg-amber-500 transition
+    "
               >
                 Boka tid
               </Button>
